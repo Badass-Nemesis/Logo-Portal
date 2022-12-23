@@ -22,6 +22,8 @@ if (user_id == null) {
     response.sendRedirect("login.jsp");
 }
 
+// TODO: make different pages, instead of showing all the images in one page
+
 try {
 %>
 <!DOCTYPE html>

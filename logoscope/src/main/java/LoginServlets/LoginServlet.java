@@ -23,6 +23,8 @@ public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
+    	// TODO: make a filter servlet, instead of copy pasting all these no caching, admin checking codes
+    	
 		// Making sure that the user can't use the back button to enter a logged out panel
 		// e.g., while using a computer in a public library
 		// ye below 3 lines ka kaam bas yahi h ki caching na ho webpage ka, aur back button kaam hi naa kare

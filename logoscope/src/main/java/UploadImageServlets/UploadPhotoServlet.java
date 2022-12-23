@@ -38,7 +38,8 @@ public class UploadPhotoServlet extends HttpServlet {
 			response.getWriter().print("You have no access to this page. Go back to login page.");
             response.sendRedirect("login.jsp");
 		}
-        
+		
+        // TODO: use base64 image encoding to encode the images into a text String and then upload it.
     	try {
             // Establish connection
             Connection con = DatabaseConnection.initializeDatabase();

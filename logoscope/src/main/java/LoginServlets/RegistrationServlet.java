@@ -19,7 +19,8 @@ public class RegistrationServlet extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {		
 		try {
-
+			// TODO: use hashing to hash the password and then store the password in database.
+				
 			// Establish connection
 			Connection con = DatabaseConnection.initializeDatabase();
 

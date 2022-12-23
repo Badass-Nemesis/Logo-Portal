@@ -108,6 +108,7 @@ try {
 </head>
 
 <body>
+<% // TODO: make partially text search (basically give user the ability to search for all the images with the input text, even when the text is partially matched to the image's title) %>
     <div class="main">
         <form action="SearchImageResultServlet">
             <label for="chk" aria-hidden="true">Search an image by title </label>
