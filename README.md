@@ -2,6 +2,11 @@
 
 Welcome to Logo Portal, a sleek and efficient app to manage and showcase logos!
 
+## 🎥 Demo Video
+
+Check out the app in action:
+[![Demo Video](https://youtu.be/tkPVQvdOHnQ/maxresdefault.jpg)](https://youtu.be/tkPVQvdOHnQ)
+
 ## 📚 Features
 
 - Upload and manage logos 🖼️
